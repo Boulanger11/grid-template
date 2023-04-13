@@ -1,1 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background-color: lightblue;
+    height: 3vh;
+    padding: 1%;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+main aside {
+    background-color: lightseagreen;
+}
+
+main section {
+    background-color: lightpink;
+}
+
+footer {
+    background-color: lightgoldenrodyellow;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 5vh;
+    align-items: center;
+    justify-items: center;
+}
